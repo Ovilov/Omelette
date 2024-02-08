@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omelette</title>
-    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="bg-main__pink-0">
-    <div class="max-w-[768px] mx-auto mt-[123px] mb-[116.5px] p-10 bg-white rounded-3xl">
+    <div
+      class="max-w-[768px] mx-auto mt-[123px] mb-[116.5px] p-10 bg-white rounded-3xl"
+    >
       <img
         class="w-full h-[300px] rounded-xl mb-10 object-cover"
-        src="./images/img-omelette.jpg"
+        src="./src/images/img-omelette.jpg"
         alt="img-omelette"
       />
       <h1 class="font-normal text-[40px] font-serif mb-6">
@@ -49,11 +51,11 @@
           Optional fillings: cheese, diced vegetables, cooked meats, herbs
         </li>
       </ul>
-      <hr />
+      <hr class="block" />
       <h3 class="font-serif text-[#854632] text-[28px] mt-8 mb-6">
         Instructions
       </h3>
-      <ol class="list-disc marker:text-raspberry-0 mb-8">
+      <ol class="list-decimal marker:text-raspberry-0 mb-8">
         <li class="pl-4 text-wenge-brown mb-2">
           <span class="font-bold">Beat the eggs:</span> In a bowl, beat the eggs
           with a pinch of salt and pepper until they are well mixed. You can add
@@ -95,16 +97,19 @@
           <span class="text-raspberry-0 font-bold w-[288px]">277kcal</span>
         </li>
         <li><hr /></li>
-        <li>
-          Carbs <span class="text-raspberry-0 font-bold w-[288px]">0g</span>
+        <li class="text-wenge-brown ml-8 flex justify-around mb-3">
+          <span class="w-[288px] inline-block">Carbs</span>
+          <span class="text-raspberry-0 font-bold w-[288px]">0g</span>
         </li>
         <li><hr /></li>
-        <li>
-          Protein <span class="text-raspberry-0 font-bold w-[288px]">20g</span>
+        <li class="text-wenge-brown ml-8 flex justify-around mb-3">
+          <span class="w-[288px] inline-block">Protein</span>
+          <span class="text-raspberry-0 font-bold w-[288px]">20g</span>
         </li>
         <li><hr /></li>
-        <li>
-          Fat <span class="text-raspberry-0 font-bold w-[288px]">22g</span>
+        <li class="text-wenge-brown ml-8 flex justify-around mb-3">
+          <span class="w-[288px] inline-block">Fat</span>
+          <span class="text-raspberry-0 font-bold w-[288px]">22g</span>
         </li>
       </ul>
     </div>
